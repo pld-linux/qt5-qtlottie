@@ -69,6 +69,7 @@ Biblioteka Qt5 Bodymovin.
 Summary:	Qt5 Bodymovin - development files
 Summary(pl.UTF-8):	Biblioteka Qt5 Bodymovin - pliki programistyczne
 Group:		X11/Development/Libraries
+Requires:	Qt5Bodymovin = %{version}-%{release}
 Requires:	Qt5Core-devel >= %{qtbase_ver}
 Requires:	Qt5Gui-devel >= %{qtbase_ver}
 
