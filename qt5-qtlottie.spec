@@ -55,7 +55,7 @@ Ten pakiet zawiera bibliotekę Qt5 Lottie (Bodymovin).
 Summary:	The Qt5 Bodymovin library
 Summary(pl.UTF-8):	Biblioteka Qt5 Bodymovin
 Group:		X11/Libraries
-Requires:	Qt5Core >= %{qtbase_ver}
+%requires_eq_to	Qt5Core Qt5Core-devel
 Requires:	Qt5Gui >= %{qtbase_ver}
 Requires:	Qt5Qml >= %{qtdeclarative_ver}
 Requires:	Qt5Quick >= %{qtdeclarative_ver}
