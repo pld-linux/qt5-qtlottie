@@ -9,12 +9,12 @@
 Summary:	The Qt5 Lottie (Bodymovin) library
 Summary(pl.UTF-8):	Biblioteka Qt5 Lottie (Bodymovin)
 Name:		qt5-%{orgname}
-Version:	5.15.18
+Version:	5.15.19
 Release:	1
 License:	GPL v3+ or commercial
 Group:		X11/Libraries
 Source0:	https://download.qt.io/archive/qt/5.15/%{version}/submodules/%{orgname}-everywhere-opensource-src-%{version}.tar.xz
-# Source0-md5:	13da6851ec99f34c53083666598ab10e
+# Source0-md5:	7f7106b8c7d26e2d62cd08020072a45f
 URL:		https://www.qt.io/
 BuildRequires:	Qt5Core-devel >= %{qtbase_ver}
 BuildRequires:	Qt5Gui-devel >= %{qtbase_ver}
